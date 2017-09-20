@@ -25,9 +25,9 @@ public class BakeryController {
         int employeeSalary = 0;
         for(Employee employee: employees) {
             if(employee.getAge() >= 65) {
-                employeeFee = 0.1636 * (employee.getHourlyWage() * employee.getWorkedHoursPerWeek());
+                employeeFee += 0.1636 * (employee.getHourlyWage() * employee.getWorkedHoursPerWeek());
              } else {
-                employeeFee = 0.3142 * (employee.getHourlyWage() * employee.getWorkedHoursPerWeek());
+                employeeFee += 0.3142 * (employee.getHourlyWage() * employee.getWorkedHoursPerWeek());
             }
             employeeFee += 0.0511 * (employee.getHourlyWage() * employee.getWorkedHoursPerWeek());
             employeeSalary += employee.getHourlyWage() * employee.getWorkedHoursPerWeek();
