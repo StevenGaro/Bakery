@@ -23,19 +23,19 @@ public class PastryFactoryTest {
 
     @Test
     public void everyThirdBun() {
-        Pastry bun = new Bun(3, 4, 10);
+        Pastry bun = new Bun();
         assertEquals(bun.priceToCustomer, pastryFactory.makePastry(3).get(2).priceToCustomer);
     }
 
     @Test
     public void everyThirdCake() {
-        Pastry cake = new Cake(10, 12, 25);
+        Pastry cake = new Cake();
         assertEquals(cake.priceToCustomer, pastryFactory.makePastry(3).get(0).priceToCustomer);
     }
 
     @Test
     public void everyThirdMuffin() {
-        Pastry muffin = new Muffin(5, 7, 15);
+        Pastry muffin = new Muffin();
         assertEquals(muffin.priceToCustomer, pastryFactory.makePastry(3).get(1).priceToCustomer);
     }
 }

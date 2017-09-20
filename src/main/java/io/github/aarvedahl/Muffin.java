@@ -1,11 +1,11 @@
 package io.github.aarvedahl;
 
 public class Muffin extends Pastry {
-    public Muffin(int minutesToMake, int commodiesPrice, int priceToCustomer) {
+    public Muffin() {
         super();
-        this.minutesToMake = minutesToMake;
-        this.commodiesPrice = commodiesPrice;
-        this.priceToCustomer = priceToCustomer;
+        this.minutesToMake = 5;
+        this.commodiesPrice = 7;
+        this.priceToCustomer = 15;
         this.name = "Muffin";
     }
 }

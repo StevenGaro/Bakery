@@ -43,4 +43,9 @@ public class BakeryControllerTest {
         assertEquals(1168.96, bakeryController.calculateEmployeeFee(employeeFactory.hireEmployees(2)), 0.01);
     }
 
+    @Test
+    public void pastriesList() {
+        assertEquals(3, bakeryController.pastriesList().size());
+    }
+
 }

@@ -1,9 +1,11 @@
 package io.github.aarvedahl;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class BakeryController {
-
+    PastryFactory pastryFactory;
+    EmployeeFactory employeeFactory;
     public  BakeryController() {
 
     }
@@ -16,9 +18,8 @@ public class BakeryController {
             priceToCustomer += pastry.priceToCustomer;
         }
         return priceToCustomer - cost;
-
     }
-// TODO add employeesalary
+
     public double calculateEmployeeFee(List<Employee> employees) {
         double employeeFee = 0;
         int employeeSalary = 0;
@@ -29,7 +30,27 @@ public class BakeryController {
                 employeeFee = 0.3142 * (employee.getHourlyWage() * employee.getWorkedHoursPerWeek());
             }
             employeeFee += 0.0511 * (employee.getHourlyWage() * employee.getWorkedHoursPerWeek());
+            employeeSalary += employee.getHourlyWage() * employee.getWorkedHoursPerWeek();
         }
-        return employeeFee;
+        return employeeFee + employeeSalary;
+    }
+
+    public List<String> pastriesList() {
+        List<String> pastriesList = new ArrayList<>();
+        PastryFactory pastryFactory = new PastryFactory();
+        for(Pastry pastry: pastryFactory.makePastry(3)) {
+            pastriesList.add(pastry.name);
+        }
+        return pastriesList;
+    }
+
+
+    public void weeklyResults(View view) {
+        pastryFactory = new PastryFactory();
+        employeeFactory = new EmployeeFactory();
+        view.welcome(pastriesList());
+        view.showProfit(calculatePastryProfit(pastryFactory.makePastry(view.getInput())));
+        view.showFee(Math.round(calculateEmployeeFee(employeeFactory.hireEmployees(1)) * 100.0) / 100.0);
+        view.showTotal();
     }
 }

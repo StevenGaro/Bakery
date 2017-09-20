@@ -3,7 +3,7 @@ package io.github.aarvedahl;
 import java.util.ArrayList;
 import java.util.List;
 
-public class PastryFactory {
+public class PastryFactory implements Factory{
 
     public PastryFactory() {
 
@@ -15,13 +15,13 @@ public class PastryFactory {
         int i = 1;
         while(i <= number) {
             if(i % 3 == 0) {
-                Pastry bun = new Bun(3, 4, 10);
+                Pastry bun = new Bun();
                 pastryList.add(bun);
             } else if(i % 3 == 1) {
-                Pastry cake = new Cake(10, 12, 25);
+                Pastry cake = new Cake();
                 pastryList.add(cake);
             } else if(i % 3 == 2) {
-                Pastry muffin = new Muffin(5, 7, 15);
+                Pastry muffin = new Muffin();
                 pastryList.add(muffin);
             }
             i++;
