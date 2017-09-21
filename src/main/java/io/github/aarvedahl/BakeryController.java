@@ -6,6 +6,7 @@ import java.util.List;
 public class BakeryController {
     PastryFactory pastryFactory;
     EmployeeFactory employeeFactory;
+
     public  BakeryController() {
 
     }
@@ -52,7 +53,7 @@ public class BakeryController {
         employeeFactory = new EmployeeFactory();
         view.welcome(pastriesList());
         view.showProfit(calculatePastryProfit(pastryFactory.makePastry(view.getInput())));
-        view.showFee(Math.round(calculateEmployeeFee(employeeFactory.hireEmployees(1)) * 100.0) / 100.0);
+        view.showFee(calculateEmployeeFee(employeeFactory.hireEmployees(1)));
         view.showTotal();
     }
 }

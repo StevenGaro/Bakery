@@ -48,4 +48,14 @@ public class BakeryControllerTest {
         assertEquals(3, bakeryController.pastriesList().size());
     }
 
+
+    @Test
+    public void enoughtWithTime() {
+
+    }
+
+    @Test
+    public void notEnoughTime() {
+
+    }
 }

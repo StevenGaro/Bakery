@@ -6,7 +6,6 @@ public abstract class Pastry {
 
     Recipe recipe;
     protected int minutesToMake;
-    protected int commodiesPrice;
     protected int priceToCustomer;
     protected String name;
 
