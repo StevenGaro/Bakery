@@ -5,7 +5,7 @@ public class CupCake extends Pastry {
         super();
         this.minutesToMake = 5;
         this.commodiesPrice = 7;
-        this.priceToCustomer = 20;
+        this.priceToCustomer = 14;
         this.name = "CupCake";
     }
 }

@@ -3,16 +3,15 @@ package io.github.aarvedahl;
 import java.util.ArrayList;
 import java.util.List;
 
-public class BunRecipe implements Recipe{
-
+public class CakeRecipe implements Recipe {
     @Override
     public List<Ingredient> getRecipe() {
         List<Ingredient> ingredients = new ArrayList<>();
-        Ingredient sugar = new Sugar(0.06);
-        ingredients.add(sugar);
-        Ingredient milk = new Milk(0.1);
+        Ingredient milk = new Milk(0.5);
         ingredients.add(milk);
-        Ingredient flour = new Flour(0.12);
+        Ingredient sugar = new Sugar(0.3);
+        ingredients.add(sugar);
+        Ingredient flour = new Flour(0.4);
         ingredients.add(flour);
         return ingredients;
     }

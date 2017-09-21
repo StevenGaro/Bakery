@@ -6,7 +6,7 @@ public class Bun extends Pastry {
         super();
         this.minutesToMake = 3;
         this.commodiesPrice = 4;
-        this.priceToCustomer = 15;
+        this.priceToCustomer = 12;
         this.name = "Bun";
     }
 }
