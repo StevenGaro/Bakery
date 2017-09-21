@@ -2,7 +2,7 @@ package io.github.aarvedahl;
 
 public class CupCake extends Pastry {
     public CupCake() {
-        super();
+        super(new CupCakeRecipe());
         this.minutesToMake = 5;
         this.commodiesPrice = 7;
         this.priceToCustomer = 14;

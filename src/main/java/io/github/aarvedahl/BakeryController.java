@@ -14,7 +14,9 @@ public class BakeryController {
         int cost = 0;
         int priceToCustomer = 0;
         for(Pastry pastry: pastries) {
-            cost += pastry.commodiesPrice;
+            for(Ingredient ingredient: pastry.getRecipe()) {
+                cost += ingredient.amount * ingredient.costPerKg;
+            }
             priceToCustomer += pastry.priceToCustomer;
         }
         return priceToCustomer - cost;
