@@ -52,8 +52,29 @@ public class BakeryController {
         pastryFactory = new PastryFactory();
         employeeFactory = new EmployeeFactory();
         view.welcome(pastriesList());
-        view.showProfit(calculatePastryProfit(pastryFactory.makePastry(view.getInput())));
-        view.showFee(calculateEmployeeFee(employeeFactory.hireEmployees(1)));
-        view.showTotal();
+        int amountOfPastry = view.getInput();
+        if(enoughWithTime(employeeFactory.hireEmployees(1), pastryFactory.makePastry(amountOfPastry))) {
+            view.showProfit(calculatePastryProfit(pastryFactory.makePastry(amountOfPastry)));
+            view.showFee(calculateEmployeeFee(employeeFactory.hireEmployees(1)));
+            view.showTotal();
+        } else {
+            view.notEnoughTime();
+        }
+    }
+
+    public boolean enoughWithTime(List<Employee> employees, List<Pastry> pastries) {
+        int employeeMinutes = 0;
+        int pastriesMinutes = 0;
+        for(Employee employee: employees) {
+            employeeMinutes += (employee.getWorkedHoursPerWeek() * 60);
+        }
+        for(Pastry pastry: pastries) {
+            pastriesMinutes += pastry.minutesToMake;
+        }
+        if(employeeMinutes >= pastriesMinutes) {
+            return true;
+        } else {
+            return false;
+        }
     }
 }

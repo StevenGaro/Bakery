@@ -46,5 +46,10 @@ public class Bakery implements View{
     public void showTotal() {
         System.out.println("Total result this week is following: " + (profit - expenses)  + " kr");
     }
+
+    @Override
+    public void notEnoughTime() {
+        System.out.println("The amount of time it takes to bake the pastries is exceeding amount of working hours");
+    }
 }
 

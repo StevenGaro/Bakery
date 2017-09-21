@@ -13,4 +13,6 @@ public interface View {
     void showFee(double fee);
 
     void showTotal();
+
+    void notEnoughTime();
 }

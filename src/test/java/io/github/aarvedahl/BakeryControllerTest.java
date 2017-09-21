@@ -50,12 +50,16 @@ public class BakeryControllerTest {
 
 
     @Test
-    public void enoughtWithTime() {
-
+    public void enoughWithTime() {
+        EmployeeFactory employeeFactory = new EmployeeFactory();
+        PastryFactory pastryFactory = new PastryFactory();
+        assertEquals(true, bakeryController.enoughWithTime(employeeFactory.hireEmployees(1), pastryFactory.makePastry(250)));
     }
 
     @Test
     public void notEnoughTime() {
-
+        EmployeeFactory employeeFactory = new EmployeeFactory();
+        PastryFactory pastryFactory = new PastryFactory();
+        assertEquals(false, bakeryController.enoughWithTime(employeeFactory.hireEmployees(1), pastryFactory.makePastry(350)));
     }
 }
