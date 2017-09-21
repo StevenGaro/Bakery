@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87ce9a40-d8b4-442c-813e-8920c4d1928a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/BunRecipe.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Flour.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Ingredient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Milk.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Recipe.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Sugar.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Muffin.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/CupCake.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Bun.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Bun.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Cake.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Cake.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/PastryFactory.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/PastryFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/io/github/aarvedahl/PastryFactoryTest.java" afterPath="$PROJECT_DIR$/src/test/java/io/github/aarvedahl/PastryFactoryTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/BunRecipe.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/BunRecipe.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,11 +18,11 @@
         <splitter split-orientation="horizontal" split-proportion="0.50652176">
           <split-first>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-              <file leaf-file-name="BunRecipe.java" pinned="false" current-in-tab="false">
+              <file leaf-file-name="BunRecipe.java" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/BunRecipe.java">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="190">
-                      <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+                    <state relative-caret-position="285">
+                      <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
                       <folding>
                         <element signature="imports" expanded="true" />
                       </folding>
@@ -52,7 +40,7 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="Flour.java" pinned="false" current-in-tab="true">
+              <file leaf-file-name="Flour.java" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Flour.java">
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="114">
@@ -151,11 +139,11 @@
         <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/PastryFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Recipe.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/BunRecoåe.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/BunRecipe.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Ingredient.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Milk.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Flour.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Sugar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/BunRecipe.java" />
       </list>
     </option>
   </component>
@@ -510,7 +498,7 @@
       <workItem from="1505897485853" duration="1793000" />
       <workItem from="1505902298221" duration="5572000" />
       <workItem from="1505913699900" duration="801000" />
-      <workItem from="1505983092513" duration="2252000" />
+      <workItem from="1505983092513" duration="3037000" />
     </task>
     <servers />
   </component>
@@ -547,7 +535,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30979000" />
+    <option name="totallyTimeSpent" value="31764000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1985" y="-4" width="1855" height="1084" extended-state="6" />
@@ -988,16 +976,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/BunRecipe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Sugar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -1019,6 +997,16 @@
         <state relative-caret-position="114">
           <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/BunRecipe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
