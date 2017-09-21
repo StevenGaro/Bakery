@@ -21,8 +21,8 @@ public class PastryFactory implements Factory{
                 Pastry cake = new Cake();
                 pastryList.add(cake);
             } else if(i % 3 == 2) {
-                Pastry muffin = new Muffin();
-                pastryList.add(muffin);
+                Pastry cupCake = new CupCake();
+                pastryList.add(cupCake);
             }
             i++;
         }

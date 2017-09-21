@@ -35,7 +35,7 @@ public class PastryFactoryTest {
 
     @Test
     public void everyThirdMuffin() {
-        Pastry muffin = new Muffin();
+        Pastry muffin = new CupCake();
         assertEquals(muffin.priceToCustomer, pastryFactory.makePastry(3).get(1).priceToCustomer);
     }
 }
