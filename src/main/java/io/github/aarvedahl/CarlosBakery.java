@@ -3,14 +3,14 @@ package io.github.aarvedahl;
 import java.util.List;
 import java.util.Scanner;
 
-public class Bakery implements IView {
+public class CarlosBakery implements IView {
 
     private int profit;
     private double expenses;
 
     public void welcome(List<String> list) {
         System.out.println("---------------------------");
-        System.out.println("Welcome to Carlo's Bakery!");
+        System.out.println("Welcome to Carlo's CarlosBakery!");
         System.out.println("---------------------------");
         System.out.println("We offer following pastries:");
         pastries(list);

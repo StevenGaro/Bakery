@@ -3,11 +3,11 @@ package io.github.aarvedahl;
 import java.util.ArrayList;
 import java.util.List;
 
-public class BakeryController {
+public class CarlosBakeryController {
     PastryFactory pastryFactory;
     EmployeeFactory employeeFactory;
 
-    public  BakeryController() {
+    public CarlosBakeryController() {
 
     }
 
