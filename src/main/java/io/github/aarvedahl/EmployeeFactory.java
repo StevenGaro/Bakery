@@ -3,7 +3,7 @@ package io.github.aarvedahl;
 import java.util.ArrayList;
 import java.util.List;
 
-public class EmployeeFactory implements Factory{
+public class EmployeeFactory {
 
     public EmployeeFactory() {  }
 

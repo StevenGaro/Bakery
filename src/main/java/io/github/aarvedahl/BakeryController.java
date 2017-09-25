@@ -48,7 +48,7 @@ public class BakeryController {
     }
 
 
-    public void weeklyResults(View view) {
+    public void weeklyResults(IView view) {
         pastryFactory = new PastryFactory();
         employeeFactory = new EmployeeFactory();
         view.welcome(pastriesList());

@@ -3,7 +3,7 @@ package io.github.aarvedahl;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CakeRecipe implements Recipe {
+public class CakeRecipe implements IRecipe {
     @Override
     public List<Ingredient> getRecipe() {
         List<Ingredient> ingredients = new ArrayList<>();

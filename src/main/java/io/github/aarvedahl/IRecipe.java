@@ -2,7 +2,7 @@ package io.github.aarvedahl;
 
 import java.util.List;
 
-public interface Recipe {
+public interface IRecipe {
 
     List<Ingredient> getRecipe();
 }

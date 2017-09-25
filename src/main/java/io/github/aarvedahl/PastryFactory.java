@@ -3,7 +3,7 @@ package io.github.aarvedahl;
 import java.util.ArrayList;
 import java.util.List;
 
-public class PastryFactory implements Factory{
+public class PastryFactory {
 
     public PastryFactory() {
 

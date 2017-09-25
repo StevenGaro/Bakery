@@ -3,7 +3,7 @@ package io.github.aarvedahl;
 import java.util.List;
 import java.util.Scanner;
 
-public class Bakery implements View{
+public class Bakery implements IView {
 
     private int profit;
     private double expenses;

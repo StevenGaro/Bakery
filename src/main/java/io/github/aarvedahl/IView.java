@@ -2,7 +2,7 @@ package io.github.aarvedahl;
 
 import java.util.List;
 
-public interface View {
+public interface IView {
 
     void welcome(List<String> list);
 

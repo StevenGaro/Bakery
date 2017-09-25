@@ -4,12 +4,12 @@ import java.util.List;
 
 public abstract class Pastry {
 
-    Recipe recipe;
+    IRecipe recipe;
     protected int minutesToMake;
     protected int priceToCustomer;
     protected String name;
 
-    public Pastry(Recipe recipe) {
+    public Pastry(IRecipe recipe) {
         this.recipe =  recipe;
     }
 
