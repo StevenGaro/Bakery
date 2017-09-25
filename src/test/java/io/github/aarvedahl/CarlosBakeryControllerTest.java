@@ -4,7 +4,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
-public class CarlosCarlosBakeryControllerTest {
+public class CarlosBakeryControllerTest {
     CarlosBakeryController carlosBakeryController;
 
     @Before
