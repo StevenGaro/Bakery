@@ -14,8 +14,9 @@ public class BeverageFactory {
         int i = 0;
         if(number == 0) { return list; }
         while(i < number){
-            int random = (int)(Math.random() * 4);
-            list.add(new CoffeeMilk(randomBeverage(random)));
+            Beverage beverage = new CoffeeMilk(randomBeverage(2));
+            list.add(beverage);
+            i++;
         }
         return list;
     }

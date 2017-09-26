@@ -6,4 +6,5 @@ public abstract class Decorator extends Beverage {
         this.beverage = beverage;
     }
 
+    public abstract String getDescription();
 }

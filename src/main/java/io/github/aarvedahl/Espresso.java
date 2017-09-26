@@ -7,7 +7,7 @@ public class Espresso extends Beverage {
         description = "Espresso";
     }
     @Override
-    Double cost() {
+    public Double cost() {
         return 15.00;
     }
 }

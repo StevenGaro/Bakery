@@ -16,4 +16,9 @@ public class BeverageFactoryTest {
         System.out.println(beverageFactory.roastBeverage(1).size());
         assertEquals(1, beverageFactory.roastBeverage(1).size());
     }
+
+    @Test
+    public void correctPrice() {
+
+    }
 }

@@ -6,7 +6,12 @@ public class CoffeeMilk extends Decorator {
     }
 
     @Override
-    Double cost() {
+    public String getDescription() {
+        return beverage.description + ", milk";
+    }
+
+    @Override
+    public Double cost() {
         return beverage.cost() + 5.90;
     }
 }
