@@ -2,7 +2,7 @@ package io.github.aarvedahl;
 
 public abstract class Beverage {
     String description = "";
-
+    int timeToMake;
     public Beverage() { };
 
     public abstract Double cost();

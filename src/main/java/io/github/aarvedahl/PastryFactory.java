@@ -12,6 +12,7 @@ public class PastryFactory {
     public List<Pastry> makePastry(int number) {
         List<Pastry> pastryList = new ArrayList<>();
 
+        if(number <= 0) { return pastryList; }
         int i = 1;
         while(i <= number) {
             if(i % 3 == 0) {

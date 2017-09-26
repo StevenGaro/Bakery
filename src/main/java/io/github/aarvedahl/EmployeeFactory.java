@@ -10,7 +10,7 @@ public class EmployeeFactory {
     public List<Employee> hireEmployees(int number) {
         List<Employee> employees = new ArrayList<>();
 
-        if(number == 0){ return employees; }
+        if(number <= 0){ return employees; }
         int i = 1;
         Employee senior = new Employee(67, 70, 35);
         employees.add(senior);

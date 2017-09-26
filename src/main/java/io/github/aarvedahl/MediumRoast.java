@@ -1,0 +1,15 @@
+package io.github.aarvedahl;
+
+public class MediumRoast extends Beverage {
+
+    public MediumRoast() {
+        super();
+        description = "Medium Roast";
+        timeToMake = 1;
+    }
+
+    @Override
+    public Double cost() {
+        return 9.99;
+    }
+}

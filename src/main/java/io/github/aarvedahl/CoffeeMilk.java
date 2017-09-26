@@ -12,6 +12,6 @@ public class CoffeeMilk extends Decorator {
 
     @Override
     public Double cost() {
-        return beverage.cost() + 5.90;
+        return beverage.cost() + 5.50;
     }
 }
