@@ -6,6 +6,11 @@ public class Caramel extends Decorator {
     }
 
     @Override
+    public Double ingredientsPrice() {
+        return beverage.ingredientsPrice() + 1.75;
+    }
+
+    @Override
     public Double cost() {
         return beverage.cost() + 7;
     }

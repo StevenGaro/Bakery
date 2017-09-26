@@ -6,6 +6,11 @@ public class WhippedCream extends Decorator {
     }
 
     @Override
+    public Double ingredientsPrice() {
+        return beverage.ingredientsPrice() + 2.5;
+    }
+
+    @Override
     public Double cost() {
         return beverage.cost() + 9.50;
     }

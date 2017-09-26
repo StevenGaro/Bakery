@@ -9,6 +9,11 @@ public class MediumRoast extends Beverage {
     }
 
     @Override
+    public Double ingredientsPrice() {
+        return 1.25;
+    }
+
+    @Override
     public Double cost() {
         return 9.99;
     }

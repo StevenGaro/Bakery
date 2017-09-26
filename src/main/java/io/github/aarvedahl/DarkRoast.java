@@ -9,6 +9,11 @@ public class DarkRoast extends Beverage {
     }
 
     @Override
+    public Double ingredientsPrice() {
+        return 1.5;
+    }
+
+    @Override
     public Double cost() {
         return 12.99;
     }
