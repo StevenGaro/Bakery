@@ -26,6 +26,19 @@ public class CarlosBakeryControllerTest {
     }
 
     @Test
+    public void zeroBeverageProfit() {
+        BeverageFactory beverageFactory = new BeverageFactory();
+        assertEquals(0, beverageFactory.collectBeverage(0).size());
+    }
+
+    @Test
+    public void calculateBeverageProfit() {
+        BeverageFactory beverageFactory = new BeverageFactory();
+        assertEquals(11.99, carlosBakeryController.calculateBeverageProfit(beverageFactory.collectBeverage(1)), 0.01);
+        assertEquals(16.74, carlosBakeryController.calculateBeverageProfit(beverageFactory.collectBeverage(1)), 0.01);
+    }
+
+    @Test
     public void zeroEmployees() {
         EmployeeFactory employeeFactory = new EmployeeFactory();
         assertEquals(0, carlosBakeryController.calculateEmployeeFee(employeeFactory.hireEmployees(0)), 0.001);

@@ -77,4 +77,14 @@ public class CarlosBakeryController {
             return false;
         }
     }
+
+    public double calculateBeverageProfit(List<Beverage> beverages) {
+        double profit = 0;
+        double ingredientCost = 0;
+        for(Beverage beverage: beverages) {
+            profit += beverage.cost();
+            ingredientCost += beverage.ingredientsPrice();
+        }
+        return profit - ingredientCost;
+    }
 }

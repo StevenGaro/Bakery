@@ -9,19 +9,22 @@ public class BeverageFactory {
 
     }
 
-    public List<Beverage> collectBeverage(int number, Beverage beverageToAdd) {
+    public List<Beverage> collectBeverage(int number) {
         List<Beverage> list = new ArrayList<>();
         int i = 0;
         if(number <= 0) { return list; }
         while(i < number){
-            Beverage beverage = beverageToAdd;
+            int decoratorNumber = (int)(Math.random() * 4);
+            int beverageNumber = (int)(Math.random() * 3);
+            Beverage beverage = randomDecorator(decoratorNumber, randomBeverage(beverageNumber));
             list.add(beverage);
             i++;
         }
         return list;
     }
 
-    public Beverage randomDecorator(int decoratorNumber, Beverage beverage) {
+
+    private Beverage randomDecorator(int decoratorNumber, Beverage beverage) {
         if(decoratorNumber == 0) {
             return new CoffeeMilk(beverage);
         } else if(decoratorNumber == 1) {
@@ -32,7 +35,7 @@ public class BeverageFactory {
             return new WhippedCream(beverage);
         }
     }
-    public Beverage randomBeverage(int beverageNumber) {
+    private Beverage randomBeverage(int beverageNumber) {
         if(beverageNumber == 0) {
             return new Espresso();
         } else if(beverageNumber == 1) {
@@ -41,4 +44,5 @@ public class BeverageFactory {
             return new DarkRoast();
         }
     }
+
 }
