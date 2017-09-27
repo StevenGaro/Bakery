@@ -5,7 +5,7 @@ public class DarkRoast extends Beverage {
     public DarkRoast() {
         super();
         description = "Dark Roast";
-        timeToMake = 2;
+        minutesToMake = 2;
     }
 
     @Override

@@ -5,7 +5,7 @@ public class MediumRoast extends Beverage {
     public MediumRoast() {
         super();
         description = "Medium Roast";
-        timeToMake = 1;
+        minutesToMake = 1;
     }
 
     @Override

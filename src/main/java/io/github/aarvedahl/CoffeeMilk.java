@@ -11,6 +11,11 @@ public class CoffeeMilk extends Decorator {
     }
 
     @Override
+    public int getMinutesToMake() {
+        return beverage.getMinutesToMake();
+    }
+
+    @Override
     public Double ingredientsPrice() {
         return beverage.ingredientsPrice() + 1;
     }

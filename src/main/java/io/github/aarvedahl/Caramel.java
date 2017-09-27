@@ -19,4 +19,9 @@ public class Caramel extends Decorator {
     public String getDescription() {
         return beverage.description + ", caramel";
     }
+
+    @Override
+    public int getMinutesToMake() {
+        return beverage.getMinutesToMake() + 1;
+    }
 }

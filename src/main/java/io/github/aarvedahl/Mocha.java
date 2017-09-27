@@ -20,4 +20,9 @@ public class Mocha extends Decorator {
     public String getDescription() {
         return beverage.description + ", mocha";
     }
+
+    @Override
+    public int getMinutesToMake() {
+        return beverage.getMinutesToMake() + 1;
+    }
 }

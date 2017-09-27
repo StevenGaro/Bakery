@@ -3,10 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="87ce9a40-d8b4-442c-813e-8920c4d1928a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/CarlosBakery.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/CarlosBakery.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Beverage.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Beverage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Caramel.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Caramel.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/CarlosBakeryController.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/CarlosBakeryController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/IView.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/IView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/io/github/aarvedahl/CarlosBakeryControllerTest.java" afterPath="$PROJECT_DIR$/src/test/java/io/github/aarvedahl/CarlosBakeryControllerTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/CoffeeMilk.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/CoffeeMilk.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/DarkRoast.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/DarkRoast.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Decorator.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Decorator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Espresso.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Espresso.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/MediumRoast.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/MediumRoast.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Mocha.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Mocha.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/WhippedCream.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/WhippedCream.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,21 +52,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CarlosBakeryController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CarlosBakeryController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/CarlosBakeryController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="81" column="48" lean-forward="false" selection-start-line="81" selection-start-column="48" selection-end-line="81" selection-end-column="48" />
+            <state relative-caret-position="411">
+              <caret line="80" column="9" lean-forward="false" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OpenBakery.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="OpenBakery.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/OpenBakery.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="209">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -69,7 +75,7 @@
       <file leaf-file-name="CarlosBakery.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/CarlosBakery.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
+            <state relative-caret-position="-43">
               <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
@@ -129,23 +135,23 @@
         <option value="$PROJECT_DIR$/src/test/java/io/github/aarvedahl/BakeryControllerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Bakery.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/BakeryController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Decorator.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/EmployeeFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/PastryFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Beverage.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Espresso.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/MediumRoast.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/DarkRoast.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/CoffeeMilk.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/WhippedCream.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Caramel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Mocha.java" />
         <option value="$PROJECT_DIR$/src/test/java/io/github/aarvedahl/BeverageFactoryTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/BeverageFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/CarlosBakeryController.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/IView.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/CarlosBakery.java" />
         <option value="$PROJECT_DIR$/src/test/java/io/github/aarvedahl/CarlosBakeryControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Beverage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Decorator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/CoffeeMilk.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Caramel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/WhippedCream.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Mocha.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/CarlosBakeryController.java" />
       </list>
     </option>
   </component>
@@ -513,7 +519,7 @@
       <workItem from="1506411033708" duration="8537000" />
       <workItem from="1506425040343" duration="2591000" />
       <workItem from="1506438131882" duration="2206000" />
-      <workItem from="1506513454932" duration="2670000" />
+      <workItem from="1506513454932" duration="3455000" />
     </task>
     <servers />
   </component>
@@ -550,7 +556,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61158000" />
+    <option name="totallyTimeSpent" value="61943000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -866,56 +872,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Decorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/MediumRoast.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
           <folding>
-            <element signature="e#239#240#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/CoffeeMilk.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="14" column="46" lean-forward="false" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
-          <folding>
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#360#361#0" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Mocha.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="10" column="50" lean-forward="false" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
-          <folding>
-            <element signature="e#191#192#0" expanded="false" />
-            <element signature="e#248#249#0" expanded="false" />
-            <element signature="e#290#291#0" expanded="false" />
-            <element signature="e#332#333#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Caramel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" column="48" lean-forward="false" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -928,22 +892,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Espresso.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Beverage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="46" lean-forward="false" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/WhippedCream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -983,14 +931,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/CarlosBakeryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="81" column="48" lean-forward="false" selection-start-line="81" selection-start-column="48" selection-end-line="81" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/io/github/aarvedahl/CarlosBakeryControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="627">
@@ -999,18 +939,95 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/CarlosBakery.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Beverage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="228">
+          <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding>
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Decorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/CoffeeMilk.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="14" column="43" lean-forward="false" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+          <folding>
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Caramel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="24" column="47" lean-forward="false" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+          <folding>
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/WhippedCream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="24" column="47" lean-forward="false" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+          <folding>
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Mocha.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="25" column="47" lean-forward="false" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+          <folding>
+            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/OpenBakery.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="209">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/CarlosBakery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-43">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/CarlosBakeryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="80" column="9" lean-forward="false" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
           <folding />
         </state>
       </provider>

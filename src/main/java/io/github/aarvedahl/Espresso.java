@@ -5,7 +5,7 @@ public class Espresso extends Beverage {
     public Espresso() {
         super();
         description = "Espresso";
-        timeToMake = 3;
+        minutesToMake = 3;
     }
 
     @Override

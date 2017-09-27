@@ -77,7 +77,7 @@ public class CarlosBakeryController {
             pastriesMinutes += pastry.minutesToMake;
         }
         for(Beverage beverage: beverages) {
-            beverageMintues += beverage.timeToMake;
+            beverageMintues += beverage.getMinutesToMake();
         }
         if(employeeMinutes >= (pastriesMinutes + beverageMintues)) {
             return true;
