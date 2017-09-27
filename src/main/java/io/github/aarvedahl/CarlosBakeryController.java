@@ -6,6 +6,7 @@ import java.util.List;
 public class CarlosBakeryController {
     PastryFactory pastryFactory;
     EmployeeFactory employeeFactory;
+    BeverageFactory beverageFactory;
 
     public CarlosBakeryController() {
 
@@ -51,10 +52,13 @@ public class CarlosBakeryController {
     public void weeklyResults(IView view) {
         pastryFactory = new PastryFactory();
         employeeFactory = new EmployeeFactory();
+        beverageFactory = new BeverageFactory();
         view.welcome(pastriesList());
         int amountOfPastry = view.getInput();
-        if(enoughWithTime(employeeFactory.hireEmployees(1), pastryFactory.makePastry(amountOfPastry))) {
-            view.showProfit(calculatePastryProfit(pastryFactory.makePastry(amountOfPastry)));
+        view.amountSoldBeverages();
+        int amountOfBeverages = view.getInput();
+        if(enoughWithTime(employeeFactory.hireEmployees(1), pastryFactory.makePastry(amountOfPastry), beverageFactory.collectBeverage(amountOfBeverages))) {
+            view.showProfit(calculatePastryProfit(pastryFactory.makePastry(amountOfPastry)), calculateBeverageProfit(beverageFactory.collectBeverage(amountOfBeverages)));
             view.showFee(calculateEmployeeFee(employeeFactory.hireEmployees(1)));
             view.showTotal();
         } else {
@@ -62,16 +66,20 @@ public class CarlosBakeryController {
         }
     }
 
-    public boolean enoughWithTime(List<Employee> employees, List<Pastry> pastries) {
+    public boolean enoughWithTime(List<Employee> employees, List<Pastry> pastries, List<Beverage> beverages) {
         int employeeMinutes = 0;
         int pastriesMinutes = 0;
+        int beverageMintues = 0;
         for(Employee employee: employees) {
             employeeMinutes += (employee.getWorkedHoursPerWeek() * 60);
         }
         for(Pastry pastry: pastries) {
             pastriesMinutes += pastry.minutesToMake;
         }
-        if(employeeMinutes >= pastriesMinutes) {
+        for(Beverage beverage: beverages) {
+            beverageMintues += beverage.timeToMake;
+        }
+        if(employeeMinutes >= (pastriesMinutes + beverageMintues)) {
             return true;
         } else {
             return false;

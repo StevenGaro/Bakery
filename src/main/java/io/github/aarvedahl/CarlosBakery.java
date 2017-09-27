@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class CarlosBakery implements IView {
 
-    private int profit;
+    private double profit;
     private double expenses;
 
     public void welcome(List<String> list) {
@@ -30,10 +30,18 @@ public class CarlosBakery implements IView {
     }
 
     @Override
-    public void showProfit(int profit) {
-        this.profit = profit;
-        System.out.println("The amount of profit from these pastries: " + profit);
+    public void amountSoldBeverages() {
+        System.out.println("---------------------------");
+        System.out.println("How many beverages have we sold this week?");
+        System.out.println("---------------------------");
     }
+
+    @Override
+    public void showProfit(int profitFromPastry, double profitFromBeverage) {
+        System.out.println("The amount of profit from these pastries: " + profitFromPastry +" and the amount of profit from beverages is: " + profitFromBeverage);
+        this.profit = (profitFromPastry + profitFromBeverage);
+    }
+
 
 
     @Override

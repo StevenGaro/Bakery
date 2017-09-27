@@ -8,7 +8,9 @@ public interface IView {
 
     int getInput();
 
-    void showProfit(int profit);
+    void amountSoldBeverages();
+
+    void showProfit(int profitFromPastry, double profitFromBeverage);
 
     void showFee(double fee);
 

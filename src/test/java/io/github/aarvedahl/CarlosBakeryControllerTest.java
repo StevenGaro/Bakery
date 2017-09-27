@@ -66,13 +66,15 @@ public class CarlosBakeryControllerTest {
     public void enoughWithTime() {
         EmployeeFactory employeeFactory = new EmployeeFactory();
         PastryFactory pastryFactory = new PastryFactory();
-        assertEquals(true, carlosBakeryController.enoughWithTime(employeeFactory.hireEmployees(1), pastryFactory.makePastry(250)));
+        BeverageFactory beverageFactory = new BeverageFactory();
+        assertEquals(true, carlosBakeryController.enoughWithTime(employeeFactory.hireEmployees(1), pastryFactory.makePastry(250), beverageFactory.collectBeverage(2)));
     }
 
     @Test
     public void notEnoughTime() {
         EmployeeFactory employeeFactory = new EmployeeFactory();
         PastryFactory pastryFactory = new PastryFactory();
-        assertEquals(false, carlosBakeryController.enoughWithTime(employeeFactory.hireEmployees(1), pastryFactory.makePastry(350)));
+        BeverageFactory beverageFactory = new BeverageFactory();
+        assertEquals(false, carlosBakeryController.enoughWithTime(employeeFactory.hireEmployees(1), pastryFactory.makePastry(350), beverageFactory.collectBeverage(2)));
     }
 }
