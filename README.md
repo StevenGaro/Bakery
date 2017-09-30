@@ -72,5 +72,5 @@ After I had written the tests first and finished the coding that I went back to 
 	I thought about making a Abstract Factory for a while to Pastry Factory and Beverage Factory since Pastry and Beverage is products that are related to each other. And the technically work in the same way by randomizing a number and making the beverage/pastry out of that. The thing that made not do it that way was the claim "Program to a interface, not a implementation" And since each beverage can have a decorator, and it would not make any sense to have same decorators to pastries. I would have to check in the factories if it is a beverage or a pastry. 
 * Things I would do differently
 	The thing that bothers me the most is the way I designed my factories, since I used randomizer in 2 of 3 factories and I didn't made this randomizer interchangable which causes my tests to fail sometimes. I tried my very best by using TDD for this project however since my tests can't promise 100% success rate each time because I used randomizer, I would say I failed with TDD for this project and will do better next time.
-
+Another thing I would do never do again is to place everything into same package which I have done in this case. It makes it very hard to navigate and locate classes.
 
