@@ -4,7 +4,6 @@ public class MediumRoast extends Beverage {
 
     public MediumRoast() {
         super();
-        description = "Medium Roast";
         minutesToMake = 1;
     }
 

@@ -37,15 +37,15 @@ public class CarlosBakery implements IView {
     }
 
     @Override
-    public void showProfit(int profitFromPastry, double profitFromBeverage) {
-        System.out.println("The amount of profit from these pastries: " + profitFromPastry +" and the amount of profit from beverages is: " + profitFromBeverage);
-        this.profit = (profitFromPastry + profitFromBeverage);
+    public void showProfit(int pastryProfit, double beverageProfit) {
+        System.out.println("The amount of profit from these pastries: " + pastryProfit +" and the amount of profit from beverages is: " + beverageProfit);
+        this.profit = (pastryProfit + beverageProfit);
     }
 
 
 
     @Override
-    public void showFee(double expenses) {
+    public void showExpenses(double expenses) {
         this.expenses = expenses;
         System.out.println("The amount of fees these week including salary is: " + expenses);
     }

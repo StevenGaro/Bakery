@@ -6,11 +6,6 @@ public class CoffeeMilk extends Decorator {
     }
 
     @Override
-    public String getDescription() {
-        return beverage.description + ", milk";
-    }
-
-    @Override
     public int getMinutesToMake() {
         return beverage.getMinutesToMake();
     }

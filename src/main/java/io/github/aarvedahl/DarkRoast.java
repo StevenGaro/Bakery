@@ -4,7 +4,6 @@ public class DarkRoast extends Beverage {
 
     public DarkRoast() {
         super();
-        description = "Dark Roast";
         minutesToMake = 2;
     }
 

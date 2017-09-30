@@ -16,11 +16,6 @@ public class WhippedCream extends Decorator {
     }
 
     @Override
-    public String getDescription() {
-        return beverage.description + ", whipped cream";
-    }
-
-    @Override
     public int getMinutesToMake() {
         return beverage.getMinutesToMake() + 3;
     }

@@ -10,9 +10,9 @@ public interface IView {
 
     void amountSoldBeverages();
 
-    void showProfit(int profitFromPastry, double profitFromBeverage);
+    void showProfit(int pastryProfit, double beverageProfit);
 
-    void showFee(double fee);
+    void showExpenses(double expenses);
 
     void showTotal();
 
