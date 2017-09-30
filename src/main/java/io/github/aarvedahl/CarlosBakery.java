@@ -10,7 +10,7 @@ public class CarlosBakery implements IView {
 
     public void welcome(List<String> list) {
         System.out.println("---------------------------");
-        System.out.println("Welcome to Carlo's CarlosBakery!");
+        System.out.println("Welcome to Carlo's Bakery!");
         System.out.println("---------------------------");
         System.out.println("We offer following pastries:");
         pastries(list);
