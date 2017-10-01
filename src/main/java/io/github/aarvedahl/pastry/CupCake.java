@@ -1,4 +1,4 @@
-package io.github.aarvedahl;
+package io.github.aarvedahl.pastry;
 
 public class CupCake extends Pastry {
     public CupCake() {

@@ -1,4 +1,4 @@
-package io.github.aarvedahl;
+package io.github.aarvedahl.view;
 
 import java.util.List;
 import java.util.Scanner;
@@ -8,6 +8,15 @@ public class CarlosBakery implements IView {
     private double profit;
     private double expenses;
 
+
+
+    private void pastries(List<String> pastriesList) {
+        for(String pastry: pastriesList) {
+            System.out.println(pastry);
+        }
+    }
+
+    @Override
     public void welcome(List<String> list) {
         System.out.println("---------------------------");
         System.out.println("Welcome to Carlo's Bakery!");
@@ -16,12 +25,6 @@ public class CarlosBakery implements IView {
         pastries(list);
         System.out.println("---------------------------");
         System.out.println("How many pastries have we sold this week? ");
-    }
-
-    private void pastries(List<String> pastriesList) {
-        for(String pastry: pastriesList) {
-            System.out.println(pastry);
-        }
     }
 
     public int getInput() {
@@ -57,7 +60,7 @@ public class CarlosBakery implements IView {
 
     @Override
     public void notEnoughTime() {
-        System.out.println("The amount of time it takes to bake the pastries is exceeding amount of working hours");
+        System.out.println("The amount of time it takes to bake the pastries and make beverages is exceeding amount of working hours");
     }
 }
 

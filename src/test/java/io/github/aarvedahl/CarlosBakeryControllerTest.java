@@ -1,5 +1,9 @@
 package io.github.aarvedahl;
 
+import io.github.aarvedahl.beverage.BeverageFactory;
+import io.github.aarvedahl.controller.CarlosBakeryController;
+import io.github.aarvedahl.employee.EmployeeFactory;
+import io.github.aarvedahl.pastry.PastryFactory;
 import org.junit.Before;
 import org.junit.Test;
 

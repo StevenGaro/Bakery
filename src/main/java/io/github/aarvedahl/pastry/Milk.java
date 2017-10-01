@@ -1,6 +1,7 @@
-package io.github.aarvedahl;
+package io.github.aarvedahl.pastry;
 
-public class Milk extends Ingredient{
+
+public class Milk extends Ingredient {
 
     public Milk(double amount) {
         super();

@@ -1,5 +1,6 @@
 package io.github.aarvedahl;
 
+import io.github.aarvedahl.pastry.*;
 import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.*;

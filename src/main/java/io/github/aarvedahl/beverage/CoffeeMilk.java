@@ -1,6 +1,7 @@
-package io.github.aarvedahl;
+package io.github.aarvedahl.beverage;
 
 public class CoffeeMilk extends Decorator {
+
     public CoffeeMilk(Beverage beverage) {
         super(beverage);
     }

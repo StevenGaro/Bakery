@@ -1,4 +1,13 @@
-package io.github.aarvedahl;
+package io.github.aarvedahl.controller;
+
+import io.github.aarvedahl.beverage.Beverage;
+import io.github.aarvedahl.beverage.BeverageFactory;
+import io.github.aarvedahl.employee.Employee;
+import io.github.aarvedahl.employee.EmployeeFactory;
+import io.github.aarvedahl.pastry.Ingredient;
+import io.github.aarvedahl.pastry.Pastry;
+import io.github.aarvedahl.pastry.PastryFactory;
+import io.github.aarvedahl.view.IView;
 
 import java.util.ArrayList;
 import java.util.List;

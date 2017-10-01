@@ -1,4 +1,5 @@
-package io.github.aarvedahl;
+package io.github.aarvedahl.pastry;
+
 
 import java.util.ArrayList;
 import java.util.List;

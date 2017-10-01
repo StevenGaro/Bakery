@@ -1,13 +1,13 @@
-package io.github.aarvedahl;
+package io.github.aarvedahl.pastry;
 
 import java.util.List;
 
 public abstract class Pastry {
 
     IRecipe recipe;
-    protected int minutesToMake;
-    protected int priceToCustomer;
-    protected String name;
+    public int minutesToMake;
+    public int priceToCustomer;
+    public String name;
 
     public Pastry(IRecipe recipe) {
         this.recipe =  recipe;

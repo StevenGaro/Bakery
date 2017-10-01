@@ -1,4 +1,4 @@
-package io.github.aarvedahl;
+package io.github.aarvedahl.view;
 
 import java.util.List;
 

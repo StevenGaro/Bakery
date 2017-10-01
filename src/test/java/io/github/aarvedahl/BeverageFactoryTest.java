@@ -1,5 +1,6 @@
 package io.github.aarvedahl;
 
+import io.github.aarvedahl.beverage.BeverageFactory;
 import org.junit.Before;
 import org.junit.Test;
 

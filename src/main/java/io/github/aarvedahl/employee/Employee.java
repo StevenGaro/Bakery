@@ -1,4 +1,4 @@
-package io.github.aarvedahl;
+package io.github.aarvedahl.employee;
 
 public class Employee {
     private int age;

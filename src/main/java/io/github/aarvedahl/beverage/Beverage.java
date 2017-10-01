@@ -1,4 +1,4 @@
-package io.github.aarvedahl;
+package io.github.aarvedahl.beverage;
 
 public abstract class Beverage {
     int minutesToMake;

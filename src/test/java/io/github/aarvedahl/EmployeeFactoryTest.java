@@ -1,5 +1,7 @@
 package io.github.aarvedahl;
 
+import io.github.aarvedahl.employee.Employee;
+import io.github.aarvedahl.employee.EmployeeFactory;
 import org.junit.Before;
 import org.junit.Test;
 

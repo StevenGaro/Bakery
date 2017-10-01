@@ -1,19 +1,19 @@
-package io.github.aarvedahl;
+package io.github.aarvedahl.beverage;
 
-public class Mocha extends Decorator {
+public class Caramel extends Decorator {
 
-    public Mocha(Beverage beverage) {
+    public Caramel(Beverage beverage) {
         super(beverage);
     }
 
     @Override
     public Double ingredientsPrice() {
-        return beverage.ingredientsPrice() + 1.99;
+        return beverage.ingredientsPrice() + 1.75;
     }
 
     @Override
     public Double cost() {
-        return beverage.cost() + 5;
+        return beverage.cost() + 7;
     }
 
     @Override

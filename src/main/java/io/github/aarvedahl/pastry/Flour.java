@@ -1,4 +1,5 @@
-package io.github.aarvedahl;
+package io.github.aarvedahl.pastry;
+
 
 public class Flour extends Ingredient {
 
