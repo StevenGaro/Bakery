@@ -2,40 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87ce9a40-d8b4-442c-813e-8920c4d1928a" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Beverage.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/beverage/Beverage.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/BeverageFactory.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/beverage/BeverageFactory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Bun.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/pastry/Bun.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/BunRecipe.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/pastry/BunRecipe.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Cake.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/pastry/Cake.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/CakeRecipe.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/pastry/CakeRecipe.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Caramel.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/beverage/Caramel.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/CarlosBakery.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/view/CarlosBakery.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/CarlosBakeryController.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/controller/CarlosBakeryController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/CoffeeMilk.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/beverage/CoffeeMilk.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/CupCake.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/pastry/CupCake.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/CupCakeRecipe.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/pastry/CupCakeRecipe.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/DarkRoast.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/beverage/DarkRoast.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Decorator.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/beverage/Decorator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Employee.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/employee/Employee.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/EmployeeFactory.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/employee/EmployeeFactory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Espresso.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/beverage/Espresso.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Flour.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/pastry/Flour.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/IRecipe.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/pastry/IRecipe.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/IView.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/view/IView.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Ingredient.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/pastry/Ingredient.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/MediumRoast.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/beverage/MediumRoast.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Milk.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/pastry/Milk.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Mocha.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/beverage/Mocha.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Pastry.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/pastry/Pastry.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/PastryFactory.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/pastry/PastryFactory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Sugar.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/pastry/Sugar.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/WhippedCream.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/beverage/WhippedCream.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/OpenBakery.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/OpenBakery.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/io/github/aarvedahl/BeverageFactoryTest.java" afterPath="$PROJECT_DIR$/src/test/java/io/github/aarvedahl/BeverageFactoryTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/io/github/aarvedahl/CarlosBakeryControllerTest.java" afterPath="$PROJECT_DIR$/src/test/java/io/github/aarvedahl/CarlosBakeryControllerTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/io/github/aarvedahl/EmployeeFactoryTest.java" afterPath="$PROJECT_DIR$/src/test/java/io/github/aarvedahl/EmployeeFactoryTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/io/github/aarvedahl/PastryFactoryTest.java" afterPath="$PROJECT_DIR$/src/test/java/io/github/aarvedahl/PastryFactoryTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,11 +14,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="OpenBakery.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="OpenBakery.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/OpenBakery.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="-9">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CarlosBakeryController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/controller/CarlosBakeryController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PastryFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/pastry/PastryFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-9">
+              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -68,6 +59,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>makePastry</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -140,11 +136,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1985" />
-    <option name="y" value="24" />
-    <option name="width" value="1851" />
-    <option name="height" value="967" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="65" />
+    <option name="y" value="-4" />
+    <option name="width" value="1855" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -164,6 +160,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -201,6 +199,24 @@
               <item name="Bakery" type="b2602c69:ProjectViewProjectNode" />
               <item name="Bakery" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="aarvedahl" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Bakery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bakery" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="aarvedahl" type="462c0819:PsiDirectoryNode" />
+              <item name="pastry" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Bakery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bakery" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -223,9 +239,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -233,6 +247,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -506,7 +521,8 @@
       <workItem from="1506602397273" duration="3240000" />
       <workItem from="1506760461481" duration="2490000" />
       <workItem from="1506767959128" duration="901000" />
-      <workItem from="1506871450523" duration="1125000" />
+      <workItem from="1506871450523" duration="1384000" />
+      <workItem from="1506927738404" duration="2081000" />
     </task>
     <servers />
   </component>
@@ -543,7 +559,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70240000" />
+    <option name="totallyTimeSpent" value="72580000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -555,7 +571,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1985" y="24" width="1851" height="967" extended-state="0" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991803" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -565,12 +582,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37369034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14446722" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25013506" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16334231" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -660,7 +677,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
           <caret line="29" column="12" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -711,7 +730,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="25" column="12" lean-forward="false" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -728,7 +749,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -736,7 +756,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -744,7 +763,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -752,17 +770,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/pastry/PastryFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -778,7 +785,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -786,7 +792,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -794,7 +799,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -802,7 +806,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -818,7 +821,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -826,7 +828,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -834,17 +835,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/controller/CarlosBakeryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="80" column="5" lean-forward="true" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -852,7 +842,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -860,7 +849,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -868,7 +856,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -876,7 +863,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -884,7 +870,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -892,7 +877,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -900,7 +884,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -908,7 +891,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -916,9 +898,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -926,7 +905,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -934,7 +912,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -942,7 +919,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -950,7 +926,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -967,8 +942,8 @@
         <state relative-caret-position="494">
           <caret line="34" column="30" lean-forward="true" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1144#1145#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1144#1145#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -991,8 +966,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/OpenBakery.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="-9">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/pastry/PastryFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/controller/CarlosBakeryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
