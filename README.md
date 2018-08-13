@@ -1,5 +1,7 @@
 # Bakery
 
+Test 1
+
 A bakery needed help to view their income and expenses per week, they have a list with pastries and hot drinks which they offer, where the cost of ingredients and the selling price of each pastry and hot drinks are different.  You want to be able to enter the number of pastries and hot drinks sold per month.
 The bakery also wants to see salary costs, including employer's fees and contractual insurance. There are fewer employees, of which one over 65 years. The employer's fee is 31.42% of gross salary (before tax), 16.36% for the elderly. Contract insurance is 5.11% of gross salary.
 A report on income and expenses should be available.
