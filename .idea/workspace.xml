@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe29613c-f63d-4d3f-b4ae-9a14a807dfd4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/checkstyle.xml" afterPath="$PROJECT_DIR$/checkstyle.xml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -122,8 +122,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2941">
-              <caret line="173" column="0" lean-forward="false" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
+            <state relative-caret-position="408">
+              <caret line="64" column="51" lean-forward="false" selection-start-line="64" selection-start-column="51" selection-end-line="64" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -144,9 +144,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/pastry/Bun.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/pastry/PastryFactory.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/GoogleCheckstyle.xml" />
         <option value="$PROJECT_DIR$/checkstyle.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -788,8 +788,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2941">
-          <caret line="173" column="0" lean-forward="false" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
+        <state relative-caret-position="408">
+          <caret line="64" column="51" lean-forward="false" selection-start-line="64" selection-start-column="51" selection-end-line="64" selection-end-column="51" />
           <folding />
         </state>
       </provider>
